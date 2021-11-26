@@ -6,7 +6,7 @@
 /*   By: hgicquel <hgicquel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/26 10:45:57 by hgicquel          #+#    #+#             */
-/*   Updated: 2021/11/26 14:58:08 by hgicquel         ###   ########.fr       */
+/*   Updated: 2021/11/26 15:04:34 by hgicquel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,13 @@ char	*ft_strdup(char *s, size_t l);
 char	*ft_strchr(char *s, char c);
 
 char	*get_next_line(int fd);
-char	*ft_read(int fd, char *left_str);
-char	*ft_strjoin(char *left_str, char *buff);
-char	*ft_parse(char *left_str);
-char	*ft_save(char *left_str);
+
+char	*ft_read(int fd, char *s);
+
+char	*ft_strjoin(char *a, char *b);
+
+char	*ft_parse(char *s);
+
+char	*ft_save(char *s);
 
 #endif
