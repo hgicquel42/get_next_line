@@ -6,7 +6,7 @@
 /*   By: hgicquel <hgicquel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/26 10:45:57 by hgicquel          #+#    #+#             */
-/*   Updated: 2021/11/26 15:04:34 by hgicquel         ###   ########.fr       */
+/*   Updated: 2021/11/26 15:04:53 by hgicquel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <unistd.h>
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 16
+#  define BUFFER_SIZE 1024
 # endif
 
 size_t	ft_strlen(char *s);

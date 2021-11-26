@@ -6,7 +6,7 @@
 /*   By: hgicquel <hgicquel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/26 10:46:02 by hgicquel          #+#    #+#             */
-/*   Updated: 2021/11/26 15:03:30 by hgicquel         ###   ########.fr       */
+/*   Updated: 2021/11/26 15:28:06 by hgicquel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,9 +42,8 @@ char	*ft_strjoin(char *a, char *b)
 char	*ft_parse(char *s)
 {
 	int		i;
-	char	*r;
 
-	if (!s)
+	if (!s[0])
 		return (0);
 	i = 0;
 	while (s[i] && s[i] != '\n')
